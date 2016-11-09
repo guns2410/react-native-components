@@ -1,12 +1,29 @@
-language: node_js
-node_js:
-- "5.5"
-- "5.4"
-- "5.3"
-- "5.2"
-- "5.1"
-- "5.0"
-- "4.2"
-- "4.1"
-- "0.12"
-- "0.10"
+# Gitlab CI docket image
+image: node:6.6.0
+
+stages:
+  - build
+  - test
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+
+build:
+  stage: build
+  script:
+    - npm install
+  tags:
+    - tweedle-components
+
+test:
+  stage: test
+  script:
+    - ./bin/test
+  tags:
+    - tweedle-components
+
+deploy:
+  stage: deploy
