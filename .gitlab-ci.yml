@@ -21,7 +21,7 @@ build:
 test:
   stage: test
   script:
-    - ./bin/test
+    - npm test
   tags:
     - docker
 
