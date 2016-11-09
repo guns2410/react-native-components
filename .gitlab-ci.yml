@@ -2,7 +2,9 @@
 image: node:6.6.0
 
 stages:
+  - build
   - test
+  - deploy
 
 cache:
   paths:
@@ -11,10 +13,6 @@ cache:
 
 build:
   stage: build
-  script:
-    - npm install
-  tags:
-    - docker
 
 test:
   stage: test
