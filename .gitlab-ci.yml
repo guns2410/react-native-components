@@ -16,14 +16,14 @@ build:
   script:
     - npm install
   tags:
-    - tweedle-components
+    - docker
 
 test:
   stage: test
   script:
     - ./bin/test
   tags:
-    - tweedle-components
+    - docker
 
 deploy:
   stage: deploy
