@@ -1,0 +1,2 @@
+--require node_modules/babel-core/register
+--require tests/setup.js

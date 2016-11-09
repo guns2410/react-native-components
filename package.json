@@ -1,0 +1,42 @@
+{
+  "name": "tweedle-components",
+  "version": "0.1.0",
+  "description": "Tweedle Components",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://gitlab.com/tweedlenow/tweedle-components.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts lib/**/*.spec.js",
+    "postinstall": "react-native link"
+  },
+  "author": "Gunjan Soni (gunjan.soni@tweedlenow.com)",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.16.6",
+    "react-native-animatable": "^0.6.1",
+    "react-native-linear-gradient": "^1.5.14"
+  },
+  "peerDependencies": {
+    "cheerio": "^0.22.0",
+    "react": "^15.3.2",
+    "react-native": "^0.37.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-preset-airbnb": "^2.1.1",
+    "babel-preset-react-native": "^1.9.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.6.0",
+    "enzyme": "2.2",
+    "eslint": "^3.9.1",
+    "eslint-plugin-react": "^6.6.0",
+    "istanbul": "1.0.0-alpha.2",
+    "mocha": "^3.1.2",
+    "react-dom": "^15.3.2",
+    "react-native-mock": "^0.2.7",
+    "sinon": "^1.17.6"
+  }
+}
