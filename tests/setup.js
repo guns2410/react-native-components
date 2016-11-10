@@ -26,6 +26,13 @@ register(config);
 global.__DEV__ = true;
 global.expect = chai.expect;
 chai.use(chaiEnzyme());
+
+var jsdom = require('jsdom');
+const doc = jsdom.jsdom('<!doctype html><html><body></body></html>');
+const win = doc.defaultView;
+global.document = doc;
+global.window = win;
+
 // Setup mocks
 require('react-native-mock/mock');
 const React = require('react-native')
