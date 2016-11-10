@@ -16,7 +16,8 @@
   "dependencies": {
     "lodash": "^4.16.6",
     "react-native-animatable": "^0.6.1",
-    "react-native-linear-gradient": "^1.5.14"
+    "react-native-linear-gradient": "^1.5.14",
+    "react-native-vector-icons": "^3.0.0"
   },
   "peerDependencies": {
     "cheerio": "^0.22.0",
