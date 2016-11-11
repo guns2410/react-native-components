@@ -2703,7 +2703,7 @@ image-size@^0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.3.5.tgz#83240eab2fb5b00b04aab8c74b0471e9cba7ad8c"
 
-immutable@^3.7.6:
+immutable@^3.7.6, immutable@^3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
 
@@ -4332,6 +4332,12 @@ react-native-mock:
     react-timer-mixin "=0.13.3"
     warning "=2.1.0"
 
+react-native-tab-navigator:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-tab-navigator/-/react-native-tab-navigator-0.3.3.tgz#b222bad21fbe773c8d28f9a0de30ce62b08724d3"
+  dependencies:
+    immutable "^3.8.1"
+
 react-native-vector-icons:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-3.0.0.tgz#a2f63757dee4fb89f67eef660e25e86926ae6827"
@@ -4393,8 +4399,8 @@ readable-stream@^1.1.13, "readable-stream@>=1.1.13-1 <1.2.0-0", readable-stream@
     string_decoder "~0.10.x"
 
 readable-stream@^2.0.0, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.1.5.tgz#66fa8b720e1438b364681f2ad1a63c618448c9d0"
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.1.tgz#c459a6687ad6195f936b959870776edef27a7655"
   dependencies:
     buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
