@@ -1,6 +1,6 @@
 {
   "name": "tweedle-components",
-  "version": "0.1.0",
+  "version": "0.1.8",
   "description": "Tweedle Components",
   "main": "lib/index.js",
   "repository": {
@@ -8,8 +8,7 @@
     "type": "git"
   },
   "scripts": {
-    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts lib/**/*.spec.js",
-    "postinstall": "react-native link"
+    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts lib/**/*.spec.js"
   },
   "author": "Gunjan Soni (gunjan.soni@tweedlenow.com)",
   "license": "ISC",
