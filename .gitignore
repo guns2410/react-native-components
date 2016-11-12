@@ -43,3 +43,5 @@ android/keystores/debug.keystore
 # Custom
 coverage/
 /node_modules/
+.idea/
+*.tgz
