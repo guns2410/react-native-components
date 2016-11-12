@@ -45,3 +45,4 @@ coverage/
 /node_modules/
 .idea/
 *.tgz
+yarn.lock
