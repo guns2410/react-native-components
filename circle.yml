@@ -1,0 +1,19 @@
+# CI docker image
+image: node:6.6.0
+
+stages:
+  - test
+
+cache:
+  paths:
+    - node_modules/
+
+test:
+  stage: test
+  script:
+    - npm install -g npm-install-peers
+    - npm install
+    - npm-install-peers
+    - npm test
+  tags:
+    - docker
