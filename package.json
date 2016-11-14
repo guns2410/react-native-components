@@ -4,7 +4,7 @@
   "description": "Tweedle Components",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://gitlab.com/tweedlenow/tweedle-components.git",
+    "url": "https://github.com/guns2410/react-native-components.git",
     "type": "git"
   },
   "scripts": {
