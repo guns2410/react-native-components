@@ -22,9 +22,10 @@
     "react-native-vector-icons": "^3.0.0"
   },
   "peerDependencies": {
-    "cheerio": "^0.22.0",
-    "react": "^15.3.2",
-    "react-native": "^0.37.0"
+    "cheerio": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
