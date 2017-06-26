@@ -1,46 +1,46 @@
 {
-  "name": "tweedle-components",
-  "version": "0.1.8",
-  "description": "Tweedle Components",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/guns2410/react-native-components.git",
-    "type": "git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts lib/**/*.spec.js"
-  },
-  "author": "Gunjan Soni (gunjan.soni@tweedlenow.com)",
-  "license": "ISC",
-  "dependencies": {
-    "deepmerge": "^1.3.0",
-    "lodash": "^4.16.6",
-    "react-native-animatable": "^0.6.1",
-    "react-native-fit-image": "^1.4.6",
-    "react-native-linear-gradient": "^1.5.14",
-    "react-native-tab-navigator": "^0.3.3",
-    "react-native-vector-icons": "^3.0.0"
-  },
-  "peerDependencies": {
-    "react-native": ">=0.38.0",
-    "react": ">=15.4.0"
-  },
-  "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-eslint": "^7.1.0",
-    "babel-preset-airbnb": "^2.1.1",
-    "babel-preset-react-native": "^1.9.0",
-    "chai": "^3.5.0",
-    "chai-enzyme": "^0.6.0",
-    "enzyme": "2.2",
-    "eslint": "^3.9.1",
-    "eslint-plugin-react": "^6.6.0",
-    "istanbul": "1.0.0-alpha.2",
-    "jsdom": "^9.8.3",
-    "mocha": "^3.1.2",
-    "react-addons-test-utils": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-native-mock": "^0.2.7",
-    "sinon": "^1.17.6"
-  }
+    "name": "tweedle-components",
+    "version": "0.1.9",
+    "description": "Tweedle Components",
+    "main": "lib/index.js",
+    "repository": {
+        "url": "https://github.com/guns2410/react-native-components.git",
+        "type": "git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts lib/**/*.spec.js"
+    },
+    "author": "Gunjan Soni (gunjan.soni@tweedlenow.com)",
+    "license": "ISC",
+    "dependencies": {
+        "deepmerge": "^1.3.0",
+        "lodash": "^4.16.6",
+        "react-native-animatable": "^0.6.1",
+        "react-native-fit-image": "^1.4.6",
+        "react-native-linear-gradient": "^1.5.14",
+        "react-native-tab-navigator": "^0.3.3",
+        "react-native-vector-icons": "^3.0.0"
+    },
+    "peerDependencies": {
+        "react-native": ">=0.38.0",
+        "react": ">=15.4.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.18.2",
+        "babel-eslint": "^7.1.0",
+        "babel-preset-airbnb": "^2.1.1",
+        "babel-preset-react-native": "^1.9.0",
+        "chai": "^3.5.0",
+        "chai-enzyme": "^0.6.0",
+        "enzyme": "2.2",
+        "eslint": "^3.9.1",
+        "eslint-plugin-react": "^6.6.0",
+        "istanbul": "1.0.0-alpha.2",
+        "jsdom": "^9.8.3",
+        "mocha": "^3.1.2",
+        "react-addons-test-utils": "^15.3.2",
+        "react-dom": "^15.3.2",
+        "react-native-mock": "^0.2.7",
+        "sinon": "^1.17.6"
+    }
 }
