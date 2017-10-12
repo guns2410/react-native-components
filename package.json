@@ -18,12 +18,12 @@
         "react-native-animatable": "^0.6.1",
         "react-native-fit-image": "^1.4.6",
         "react-native-linear-gradient": "^1.5.14",
-        "react-native-tab-navigator": "^0.3.3",
-        "react-native-vector-icons": "^3.0.0"
+        "react-native-tab-navigator": "^0.3.3"
     },
     "peerDependencies": {
         "react-native": ">=0.38.0",
-        "react": ">=15.4.0"
+        "react": ">=15.4.0",
+		"react-native-vector-icons": "*"
     },
     "devDependencies": {
         "babel-core": "^6.18.2",
